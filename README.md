@@ -2,6 +2,9 @@
 
 This is a Proof of Concept for AWS ApiGateway using a Custom Lambda Authorizer for the endpoints.
 
+![aws diagram](https://docs.aws.amazon.com/images/apigateway/latest/developerguide/images/custom-auth-workflow.png)
+
+
 The terraform code creates all the needed infrastructure:
 - two lambdas
 - one Api Gateway configured with a lambda as a custom authorizer and the other lambda as an endpoint
